@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "auto_fish_fake",
+  "version": "${version}",
+  "name": "auto_fish_fake",
+  "description": "自动钓鱼",
+  "authors": [
+    "fakeneko"
+  ],
+  "contact": {
+    "repo": "https://github.com/fakeneko/auto_fish_fake"
+  },
+  "license": "MIT",
+  "icon": "assets/auto_fish_fake/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.fakeneko.auto_fish_fake.client.Auto_fish_fakeClient"
+    ],
+    "main": [
+      "io.github.fakeneko.auto_fish_fake.Auto_fish_fake"
+    ]
+  },
+  "mixins": [
+    "auto_fish_fake.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

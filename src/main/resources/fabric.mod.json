@@ -18,7 +18,7 @@
       "io.github.fakeneko.auto_fish_fake.client.Auto_fish_fakeClient"
     ],
     "main": [
-      "io.github.fakeneko.auto_fish_fake.Auto_fish_fake"
+      "io.github.fakeneko.auto_fish_fake.AutoFishFakeneko"
     ]
   },
   "mixins": [
